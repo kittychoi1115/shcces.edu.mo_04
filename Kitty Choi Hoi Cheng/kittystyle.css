@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+  box-sizing: border-box;
+}
+
+	.headtable{
+		padding:15px;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+   .image{
+		width:120%;
+		min-height:30px;
+		align:left;
+		margin-top: -10px;
+		margin-left:-29.px;
+	}
+	
+	.ht{
+		font-size: 10px;
+		font-weight: normal;
+		margin-top: 5px;
+		margin-bottom: auto;
+	}
+	.ft{
+		font-size: 10px;
+	}
+
+	.at{
+		color:whitesmoke;
+		
+	}
+
+	.indexlist{
+		margin-left: -20px;
+	}
+
+	a{  text-decoration: none;
+		color:black;
+		
+	}
+
+	a:hover{
+		color:slategrey;
+	}
+
+	a:active{
+		text-decoration: none;background-color:#F4F1E1
+	}
+	
+	body{
+		background-color: whitesmoke;
+		font-family:'Raleway', '微軟正黑體';
+	}
+
+	header {
+		width:100%;
+		height:auto;
+		padding-top:20px;
+		padding-left:20px;
+		padding-right:20px;
+		padding-bottom:10px;
+		font-weight: bold;
+		text-align: center;
+		font-size: 24px;
+		color:aliceblue;
+		background-color:steelblue
+	}
+	
+	div {
+		width:100%;
+		height:auto;
+		padding:1px;
+		font-weight: bold;
+		text-align: center;
+		font-size: 26px;
+		background-color:#F4F1E1
+	}
+
+	nav {
+		float: left;
+		width:10%;
+		height: 400px;
+		overflow:hidden;
+		border-radius: 10px;
+		background-color:#F4F1E1
+		
+	}
+	
+	section {
+		width:100%;
+		height:auto;
+	}
+	
+	article{
+		float:left;
+		width:50%;
+		height: 400px;
+		padding-right:30px;
+		padding-left:30px;
+		text-align: justify;
+		font-size:14px;
+		overflow: scroll;
+		
+		animation: fadeInAnimation ease 1s; 
+		animation-iteration-count: 1; 
+		animation-fill-mode: forwards;
+}
+	
+	footer{
+		float:left;
+		width:100%;
+		padding:20px;
+		text-align: center;
+}
+	
+	aside{
+		float: left;
+		width:20%;
+		height: 400px;
+		overflow: hidden;
+		border-radius: 10px;
+}
+
+table{
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
